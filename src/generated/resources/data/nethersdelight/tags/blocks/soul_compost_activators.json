@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+    "minecraft:bone_block",
+    "minecraft:nether_wart",
+    "nethersdelight:soul_compost",
+    "nethersdelight:rich_soul_soil",
+    "nethersdelight:crimson_fungus_colony",
+    "nethersdelight:warped_fungus_colony"
+  ]
+}

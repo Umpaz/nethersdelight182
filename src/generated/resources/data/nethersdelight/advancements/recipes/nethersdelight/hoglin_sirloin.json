@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "nethersdelight:hoglin_sirloin"
+    ]
+  },
+  "criteria": {
+    "hoglin_sirloin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nethersdelight:hoglin_loin"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "nethersdelight:hoglin_sirloin"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hoglin_sirloin",
+      "has_the_recipe"
+    ]
+  ]
+}

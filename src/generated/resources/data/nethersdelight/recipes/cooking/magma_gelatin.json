@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "nethersdelight:propelpearl"
+    }
+  ],
+  "result": {
+    "item": "nethersdelight:magma_gelatin"
+  },
+  "container": {
+    "item": "minecraft:lava_bucket"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

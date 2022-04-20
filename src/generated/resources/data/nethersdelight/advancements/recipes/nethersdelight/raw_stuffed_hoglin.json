@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "nethersdelight:raw_stuffed_hoglin"
+    ]
+  },
+  "criteria": {
+    "has_hoglin_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nethersdelight:hoglin_hide"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "nethersdelight:raw_stuffed_hoglin"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_hoglin_hide",
+      "has_the_recipe"
+    ]
+  ]
+}

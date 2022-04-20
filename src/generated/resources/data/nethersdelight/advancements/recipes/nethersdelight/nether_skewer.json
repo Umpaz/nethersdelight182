@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "nethersdelight:nether_skewer"
+    ]
+  },
+  "criteria": {
+    "has_propelpearl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nethersdelight:propelpearl"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "nethersdelight:nether_skewer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_propelpearl",
+      "has_the_recipe"
+    ]
+  ]
+}

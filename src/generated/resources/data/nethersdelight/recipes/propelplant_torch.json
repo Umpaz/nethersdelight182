@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "p",
+    "c"
+  ],
+  "key": {
+    "p": {
+      "item": "nethersdelight:propelplant_cane"
+    },
+    "c": {
+      "item": "minecraft:crimson_roots"
+    }
+  },
+  "result": {
+    "item": "nethersdelight:propelplant_torch"
+  }
+}

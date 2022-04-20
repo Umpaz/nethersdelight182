@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.nethersdelight.core.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "nethersdelight.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

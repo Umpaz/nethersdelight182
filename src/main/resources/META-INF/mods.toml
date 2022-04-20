@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[32,)"
+license="All rights reserved"
+
+[[mods]]
+    modId = "nethersdelight"
+    version = "2.2"
+    logoFile = "logo.png"
+    itemIcon = "nethersdelight:stuffed_hoglin"
+    configBackground = "minecraft:textures/block/bricks.png"
+    authors = "Umpaz"
+    credits = "SoyTutta"
+    displayName = "Nethers Delight"
+    description = '''
+    An addon created by Umpaz and SoyTutta for the Farmer's Delight mod by vectorwing. Attempts to add on to the foods found and cooked from the nether!'''
+
+[[dependencies.nethersdelight]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.18,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.nethersdelight]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[36.1.0,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.nethersdelight]]
+    modId = "farmersdelight"
+    mandatory = true
+    versionRange = "[1.0.3,)"
+    ordering = "AFTER"
+    side = "BOTH"

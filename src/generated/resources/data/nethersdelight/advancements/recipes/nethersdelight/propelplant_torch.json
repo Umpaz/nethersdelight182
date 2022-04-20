@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "nethersdelight:propelplant_torch"
+    ]
+  },
+  "criteria": {
+    "has_propelplant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nethersdelight:propelplant_cane"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "nethersdelight:propelplant_torch"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_propelplant",
+      "has_the_recipe"
+    ]
+  ]
+}

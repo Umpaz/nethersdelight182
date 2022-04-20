@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "nethersdelight:hoglin_mount"
+    ]
+  },
+  "criteria": {
+    "has_hoglin_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nethersdelight:hoglin_hide"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "nethersdelight:hoglin_mount"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_hoglin_hide",
+      "has_the_recipe"
+    ]
+  ]
+}
